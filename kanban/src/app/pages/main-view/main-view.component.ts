@@ -13,19 +13,33 @@ export class MainViewComponent implements OnInit {
   ngOnInit(): void {
   }
   
-  todo = [
+  ideias = [
     'Get to work',
     'Pick up groceries',
     'Go home',
     'Fall asleep'
   ];
 
-  done = [
+  todo = [
     'Get up',
     'Brush teeth',
     'Take a shower',
     'Check e-mail',
      'Walk dog'
+  ];
+
+  emProgresso = [
+    'Get to work',
+    'Pick up groceries',
+    'Go home',
+    'Fall asleep'
+  ];
+
+  feito = [
+    'Get to work',
+    'Pick up groceries',
+    'Go home',
+    'Fall asleep'
   ];
 
   drop(event: CdkDragDrop<string[]>) {
